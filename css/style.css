@@ -1,0 +1,41 @@
+.content-in:first-child h2{
+    color: green;
+}
+h2{
+    color: slateblue;
+}
+.content-in:last-child p{
+    color: blue;
+}
+.content-in p span{
+    color: red;
+    font-size: 1.5em;
+    text-decoration: underline red;
+}
+.content-in p{
+    text-decoration: underline;
+}
+.content-in:nth-child(4n+3){
+    background-color: #ffa;
+}
+.content:last-of-type .content-in:nth-of-type(2){
+    background-color: #faa;
+}
+.content-in h2:hover{
+    text-decoration: underline;
+}
+.content-in:first-child h2:hover{
+    cursor: zoom-in;
+}
+.content-in:nth-of-type(2) h2:hover{
+    cursor: zoom-out;
+}
+.content-in:nth-of-type(3) img:hover{
+    cursor: pointer;
+}
+.content-in:nth-of-type(4) img:hover{
+    cursor: no-drop;
+}
+.content:last-of-type .content-in:first-child img:hover{
+    opacity: 0.5;
+}
